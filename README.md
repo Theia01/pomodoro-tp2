@@ -25,3 +25,8 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 - [x] User can hear a sound playing when the timer hits `00:00` - denoting that the session has ended
 - [ ] User can change / customize the minutes in both sessions before starting
 - [ ] User can set a **long break** session of 10 minutes. This will be activated every 4th **break** session
+
+## Other features added
+
+- [x] Deployement : [https://pomodoro-tp2.vercel.app/](https://pomodoro-tp2.vercel.app/)
+- [x] App PWA : Get it on your phone
