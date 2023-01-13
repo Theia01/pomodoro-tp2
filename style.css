@@ -72,6 +72,12 @@ footer p {
     text-align: center;
 }
 
+
+iframe{
+    width: 0px;
+    height: 0px;
+}
+
 @media screen and (min-width: 500px) {
     h1{
         font-size: 4rem;
