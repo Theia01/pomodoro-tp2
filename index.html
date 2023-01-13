@@ -30,11 +30,13 @@
     <div class="content">
        <section class="container">
            <h3>What is it ?</h3>
+           <br>
            <p>The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks - 5 minutes.</p>
            <p>More about the <a href="https://en.m.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique</a></p>
        </section>
        <section class="container">
-        <div class="d-flex justify-content-center" >
+           <h5 id="title-time" class="text-center" >Session</h5>
+           <div class="d-flex justify-content-center" >
             <p class="time">
                 <span id="minutes">25</span>:<span id="seconds">00</span>
             </p>
@@ -47,6 +49,21 @@
                 </button>
                 <button class="btn btn-outline" id="button-reset">Reset</button>
             </div>
+      </section>
+      <section class="container">
+        <h3>Options</h3>
+        <br>
+        <h5>Select Time</h5>
+        <div class="row">
+            <div class="col col-md-2">
+                <label for="session-time">Session</label>
+                <input class="form-control" value="25" type="number" id="session-time" name="session-time" min="5" max="60">
+            </div>
+            <div class="col col-md-2">
+                <label for="break-time">Break</label>
+                <input class="form-control" value="5" type="number" id="break-time" name="break-time" min="1" max="10">
+            </div>
+        </div>
       </section>
     </div>
     <footer>
@@ -65,7 +82,7 @@
 
     <!-- audio -->
     <audio id="bell">
-        <source src="songs/bell.mp3" type="audio/mpeg">
+        <source src="audio/bell.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 </body>  
