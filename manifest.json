@@ -1,0 +1,25 @@
+{
+    "short_name": "PWA",
+    "name": "Pomodoro Clock PWA",
+    "description":"Help to stay focus in work",
+    "dir" : "ltr",
+    "lang": "fr",
+    "icons": [
+        {
+            "src": "/icons/rainbow.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "audio": [
+        {
+            "src": "/audio/bell.mp3",
+            "type": "audio/mpeg"
+        }
+    ],
+    "id": "/?homescreen=1",
+    "start_url": "/?homescreen=1",
+    "background_color" : "#FFF",
+    "display": "standalone",
+    "theme_color": "#FFF"
+}
